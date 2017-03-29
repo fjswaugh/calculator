@@ -1,0 +1,22 @@
+- Segmentation fault on defining function based on previous version of itself
+
+- Make ncurses and graphical user interface
+
+- Improve way in which functions and variables are saved to file
+	- Currently if multiple calculators are open simultaneously, they won't
+	both be able to save stuff
+
+- Support for complex numbers
+
+- Support for vectors and matrices
+
+- Support for arrow keys and other basic text editing
+
+- Support for command line options
+	- Specify a save file
+	- Send a calculation straight to program to output to stdout
+
+- When defining a function that divides by zero, the function should still be
+  saved. Currently it simply isn't.
+
+- Loss of precision when something saved to file
